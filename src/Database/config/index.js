@@ -8,6 +8,7 @@ module.exports = {
     database: `${DB_NAME}`,
     port: `${DB_PORT}`,
     dialect: "postgres",
+    ssl: true,
     host: `${DB_HOST}`,
     define: {
         timestamps: true,
