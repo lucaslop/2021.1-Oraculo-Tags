@@ -11,7 +11,7 @@ const { APP_PORT } = process.env;
 
 
 
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(morgan("short"));
 app.use(express.json());
 app.use(routes);
